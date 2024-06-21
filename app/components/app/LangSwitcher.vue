@@ -8,20 +8,15 @@ const handleLocaleSwitch = (langCode: string) => {
   }
 }
 
-const getLocaleCode = (localeName: string) => {
-  const langCode = locales.value.find((el) => el.name === localeName)
-  return langCode?.code === locale.value
-}
+const availableLocales = computed(() => {
+  return locales.value.filter((i) => i.code !== locale.value)
+})
 </script>
 
 <template>
   <ul>
-    <li v-for="lang in locales" :key="lang.code">
-      <button
-        type="button"
-        :disabled="getLocaleCode(String(lang.name))"
-        @click="handleLocaleSwitch(lang.code)"
-      >
+    <li v-for="lang in availableLocales" :key="lang.code">
+      <button type="button" @click="handleLocaleSwitch(lang.code)">
         {{ lang.name }}
       </button>
     </li>
