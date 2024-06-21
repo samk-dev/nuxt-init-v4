@@ -19,6 +19,23 @@ export default defineNuxtConfig({
       apiKey: ''
     }
   },
+  app: {
+    head: {
+      title: import.meta.env.NUXT_PUBLIC_APP_NAME,
+      meta: [
+        // fixes the annoying browser auto zoom on input fields. it needs some extra css
+        {
+          name: 'viewport',
+          content:
+            'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+        }
+      ]
+    }
+  },
+  devServer: {
+    host: import.meta.env.NUXT_PUBLIC_APP_HOST,
+    port: import.meta.env.NUXT_PUBLIC_APP_PORT
+  },
   i18n: {
     locales: [
       {
