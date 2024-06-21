@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
   },
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', 'nuxt-translation-manager', '@nuxtjs/i18n'],
   runtimeConfig: {
     public: {
       app: {
@@ -17,6 +17,43 @@ export default defineNuxtConfig({
     },
     backend: {
       apiKey: ''
+    }
+  },
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        iso: 'en',
+        name: 'English',
+        file: 'en-US.json',
+        isCatchallLocale: true
+      },
+      {
+        code: 'es',
+        iso: 'es',
+        name: 'Español',
+        file: 'es-ES.json'
+      },
+      {
+        code: 'ca',
+        iso: 'ca',
+        name: 'Català',
+        file: 'ca-ES.json'
+      }
+    ],
+    strategy: 'prefix_except_default',
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: 'locales',
+    dynamicRouteParams: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'app_i18n',
+      redirectOn: 'root',
+      alwaysRedirect: true
+    },
+    compilation: {
+      strictMessage: false
     }
   }
 })
