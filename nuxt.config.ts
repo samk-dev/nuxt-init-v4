@@ -62,7 +62,7 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     lazy: true,
     langDir: 'locales',
-    dynamicRouteParams: true,
+    useSetI18nParams: true,
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'app_i18n',

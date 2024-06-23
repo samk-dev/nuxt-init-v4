@@ -3,3 +3,6 @@ page-not-found,"Page not found","Página no encontrada","Pàgina no trobadaAcced
 there-has-been-an-error,"There has been an error","Ha habido un error","Hi ha hagut un error"
 back-to-index,"Back to index","Volver a la portada","Tornar a la portada"
 select-lang,"Select language","Seleccionar idioma","Seleccionar idioma"
+page-translations-title,"Page translations","Traducciones de la página","Traduccions de la pàgina"
+page-translations-description,"This page is available in the following languages:","Esta página está disponible en los siguientes idiomas:","Aquesta pàgina està disponible en els següents idiomes:"
+page-translations-image,"https://placehold.co/600x400?text=Hello+World","https://placehold.co/600x400?text=Hola+Mundo","https://placehold.co/600x400?text=Hola+Món"
