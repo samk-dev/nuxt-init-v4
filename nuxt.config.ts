@@ -4,7 +4,13 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
   },
-  modules: ['@nuxt/eslint', 'nuxt-translation-manager', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxt/eslint',
+    'nuxt-translation-manager',
+    '@nuxtjs/i18n',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/image'
+  ],
   runtimeConfig: {
     public: {
       app: {
@@ -62,7 +68,6 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     lazy: true,
     langDir: 'locales',
-    dynamicRouteParams: true,
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'app_i18n',

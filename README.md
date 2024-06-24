@@ -15,6 +15,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 | 📦 Package                 | 📖 Docs                                                               |
 | :------------------------- | :-------------------------------------------------------------------- |
+| `@nuxtjs/tailwindcss`      | [Documentation](https://tailwindcss.nuxtjs.org)                       |
+| `@nuxt/image`              | [Documentation](https://image.nuxt.com)                               |
 | `@nuxtjs/i18n`             | [Documentation](https://i18n.nuxtjs.org)                              |
 | `nuxt-translation-manager` | [Documentation](https://github.com/samk-dev/nuxt-translation-manager) |
 
