@@ -19,6 +19,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 | `@nuxt/image`              | [Documentation](https://image.nuxt.com)                               |
 | `@nuxtjs/i18n`             | [Documentation](https://i18n.nuxtjs.org)                              |
 | `nuxt-translation-manager` | [Documentation](https://github.com/samk-dev/nuxt-translation-manager) |
+| `nuxt-test-utils`          | [Documentation](https://nuxt.com/docs/getting-started/introduction)   |
 
 ## Dev Tools
 

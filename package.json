@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
+    "test:watch": "vitest watch",
     "format:check": "prettier --check .",
     "format:write": "prettier --write ./",
     "deps:check": "ncu --interactive"
