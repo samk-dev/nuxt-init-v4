@@ -16,8 +16,8 @@
     "deps:check": "ncu --interactive"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
