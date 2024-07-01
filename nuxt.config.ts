@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     'nuxt-translation-manager',
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxt/test-utils/module'
   ],
   runtimeConfig: {
     public: {
