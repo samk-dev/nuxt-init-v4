@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   future: {
     compatibilityVersion: 4
   },
+
   modules: [
     '@nuxt/eslint',
     'nuxt-translation-manager',
@@ -12,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils/module'
   ],
+
   runtimeConfig: {
     public: {
       app: {
@@ -26,6 +29,7 @@ export default defineNuxtConfig({
       apiKey: ''
     }
   },
+
   app: {
     head: {
       title: import.meta.env.NUXT_PUBLIC_APP_NAME,
@@ -39,10 +43,12 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   devServer: {
     host: import.meta.env.NUXT_PUBLIC_APP_HOST,
     port: import.meta.env.NUXT_PUBLIC_APP_PORT
   },
+
   i18n: {
     locales: [
       {
@@ -78,5 +84,7 @@ export default defineNuxtConfig({
     compilation: {
       strictMessage: false
     }
-  }
+  },
+
+  compatibilityDate: '2024-07-06'
 })
