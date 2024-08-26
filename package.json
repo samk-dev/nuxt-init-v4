@@ -18,8 +18,8 @@
     "deps:check": "ncu --interactive"
   },
   "dependencies": {
-    "vue": "^3.4.31",
-    "vue-router": "^4.4.0"
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
@@ -37,7 +37,7 @@
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "npm-check-updates": "^17.1.0",
-    "nuxt": "^3.12.3",
+    "nuxt": "^3.13.0",
     "nuxt-translation-manager": "^1.1.0",
     "playwright-core": "^1.45.1",
     "prettier": "^3.3.3",
