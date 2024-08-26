@@ -53,20 +53,20 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        iso: 'en',
+        language: 'en-US',
         name: 'English',
         file: 'en-US.json',
         isCatchallLocale: true
       },
       {
         code: 'es',
-        iso: 'es',
+        language: 'es-ES',
         name: 'Español',
         file: 'es-ES.json'
       },
       {
         code: 'ca',
-        iso: 'ca',
+        language: 'ca-ES',
         name: 'Català',
         file: 'ca-ES.json'
       }
